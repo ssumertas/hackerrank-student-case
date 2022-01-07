@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ComposeUnknownValues" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="68" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="pycyrptodome" />
+            <item index="2" class="java.lang.String" itemvalue="python-magic" />
+            <item index="3" class="java.lang.String" itemvalue="keycloak" />
+            <item index="4" class="java.lang.String" itemvalue="alembic" />
+            <item index="5" class="java.lang.String" itemvalue="Werkzeug" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models.document_entities.DocumentEntitiesModel.query" />
+          <option value="models.document_relationships.DocumentRelationshipsModel.query" />
+          <option value="file_name" />
+          <option value="models.outputs.OutputsModel.query" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
